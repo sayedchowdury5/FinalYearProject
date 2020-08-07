@@ -1,0 +1,62 @@
+form{
+	padding: 100px;
+	background-color: rgb(240, 240, 240);
+	position: center;
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 30%;
+}
+
+form,div,p{
+	position: left;
+}
+
+#sensor1{
+	margin-left: 20%;
+}
+
+#sensor2{
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+
+button {
+  /*background-color: #4CAF50;  Green*/
+  color: white;
+  padding: 30px;
+  position: center;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button1{
+	background-color: green;
+}
+
+
+.button2{
+	background-color: red;
+}
+
+@media screen and (max-width: 600px){
+	form{
+		width: 100%;
+		margin-left: 0%;
+		padding: 90px;
+	}
+
+	#sensor1{
+	margin-left: 0%;
+}
+
+#sensor2{
+	margin-top: 15%;
+	margin-left: 0%;
+}
+}
